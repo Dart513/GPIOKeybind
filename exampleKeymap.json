@@ -1,0 +1,30 @@
+[
+    {
+      "name": "wbutton",
+      "interface": "GPIO",
+      "type": "BUTTON",
+      "source": 26,
+      "binding": "w"
+    },
+    {
+      "name": "JoyAxesRight",
+      "interface": "ADS1015",
+      "type": "DOUBLE_AXIS",
+      "source": 0,
+      "bindMin": "i",
+      "bindMax": "k",
+      "inMin": 0,
+      "inMax": 2048,
+      "GAIN": 2
+    },
+    {
+        "name": "Joy2",
+        "interface": "ADS1015",
+        "type": "SINGLE_AXIS",
+        "source": 1,
+        "inMin": 0,
+        "inMax": 2048,
+        "GAIN": 2
+
+    }
+  ]
